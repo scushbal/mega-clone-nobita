@@ -584,6 +584,7 @@ class GoogleDriveHelper:
                                                orderBy='name asc').execute()
         content_count = 0
         if response["files"]:
+            msg += f'<h4>to get access To Drive Links 👉 <a href="https://groups.google.com/u/1/g/movieclub86">Join Google Group</a></h4>'
             msg += f'<h4>{len(response["files"])} Results: {fileName}</h4><br><br>'
             for file in response.get('files', []):
                 if file.get('mimeType') == "application/vnd.google-apps.folder":  # Detect Whether Current Entity is a Folder or File.
