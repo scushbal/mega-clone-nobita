@@ -31,15 +31,15 @@ def stats(update, context):
     cpuUsage = psutil.cpu_percent(interval=0.5)
     memory = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
-    stats = f'<b>Bot Uptime:</b> <code>{currentTime}</code>\n' \
-            f'<b>Total Disk Space:</b> <code>{total}</code>\n' \
-            f'<b>Used:</b> <code>{used}</code> ' \
-            f'<b>Free:</b> <code>{free}</code>\n\n' \
-            f'<b>Upload:</b> <code>{sent}</code>\n' \
-            f'<b>Download:</b> <code>{recv}</code>\n\n' \
-            f'<b>CPU:</b> <code>{cpuUsage}%</code> ' \
-            f'<b>RAM:</b> <code>{memory}%</code> ' \
-            f'<b>DISK:</b> <code>{disk}%</code>'
+    stats = f'<b>🙅 Bot Uptime:</b> <code>{currentTime}</code>\n' \
+            f'<b>📀 Total Disk Space:</b> <code>{total}</code>\n' \
+            f'<b>🍁 Used:</b> <code>{used}</code> ' \
+            f'<b>⛄ Free:</b> <code>{free}</code>\n\n' \
+            f'<b>🚀 Upload:</b> <code>{sent}</code>\n' \
+            f'<b>🎥 Download:</b> <code>{recv}</code>\n\n' \
+            f'<b>🐒 CPU:</b> <code>{cpuUsage}%</code> ' \
+            f'<b>⚙️ RAM:</b> <code>{memory}%</code> ' \
+            f'<b>💿 DISK:</b> <code>{disk}%</code>'
     sendMessage(stats, context.bot, update)
 
 
@@ -49,8 +49,8 @@ This bot can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/breakdowns/slam-tg-mirror-bot")
-    buttons.buildbutton("Channel", "https://t.me/SlamMirrorUpdates")
+    buttons.buildbutton("Contact", "t.me/nobita_o")
+    buttons.buildbutton("Group", "@gdrive_mirrors")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id, update.message.chat.username, update.message.text))
     uptime = get_readable_time((time.time() - botStartTime))
