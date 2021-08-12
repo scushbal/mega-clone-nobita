@@ -404,7 +404,7 @@ class GoogleDriveHelper:
                     buttons.buildbutton(f"{BUTTON_SIX_NAME}", f"{BUTTON_SIX_URL}")
             else:
                 file = self.copyFile(meta.get('id'), parent_id)
-                msg += f'<b>Filename: </b><code>{file.get("name")}</code>'
+                msg += f'<b>🔰 Filename: </b><code>{file.get("name")}</code>'
                 durl = self.__G_DRIVE_BASE_DOWNLOAD_URL.format(file.get("id"))
                 buttons = button_build.ButtonMaker()
                 if SHORTENER is not None and SHORTENER_API is not None:
@@ -677,13 +677,13 @@ class GoogleDriveHelper:
             LOGGER.info(f"Counting: {name}")
             if drive_file['mimeType'] == self.__G_DRIVE_DIR_MIME_TYPE:
                 self.gDrive_directory(**drive_file)
-                msg += f'<b>Filename: </b><code>{name}</code>'
-                msg += f'\n<b>Size: </b><code>{get_readable_file_size(self.total_bytes)}</code>'
-                msg += f'\n<b>Type: </b><code>Folder</code>'
-                msg += f'\n<b>SubFolders: </b><code>{self.total_folders}</code>'
-                msg += f'\n<b>Files: </b><code>{self.total_files}</code>'
+                msg += f'<b>🔰 Filename: </b><code>{name}</code>'
+                msg += f'\n<b>🌿 Size: </b><code>{get_readable_file_size(self.total_bytes)}</code>'
+                msg += f'\n<b>🍂 Type: </b><code>Folder</code>'
+                msg += f'\n<b>🚥 SubFolders: </b><code>{self.total_folders}</code>'
+                msg += f'\n<b>💿 Files: </b><code>{self.total_files}</code>'
             else:
-                msg += f'<b>Filename: </b><code>{name}</code>'
+                msg += f'<b>🔰 Filename: </b><code>{name}</code>'
                 try:
                     typee = drive_file['mimeType']
                 except:
@@ -691,9 +691,9 @@ class GoogleDriveHelper:
                 try:
                     self.total_files += 1
                     self.gDrive_file(**drive_file)
-                    msg += f'\n<b>Size: </b><code>{get_readable_file_size(self.total_bytes)}</code>'
-                    msg += f'\n<b>Type: </b><code>{typee}</code>'
-                    msg += f'\n<b>Files: </b><code>{self.total_files}</code>'
+                    msg += f'\n<b>🌿 Size: </b><code>{get_readable_file_size(self.total_bytes)}</code>'
+                    msg += f'\n<b>🚥 Type: </b><code>{typee}</code>'
+                    msg += f'\n<b>💿 Files: </b><code>{self.total_files}</code>'
                 except TypeError:
                     pass
         except Exception as err:
