@@ -302,9 +302,11 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 # Contact Me
 
 [Facebook](https://facebook.com/naimxw)
-[Telegram](t.me/nobita_o)
+
+[Telegram](https://t.me/nobita_o)
 
 # Credits
 
 All Credits Goes to:
--[Nobita](https://t.me/nobita_o)
+
+[Nobita](https://t.me/nobita_o)
