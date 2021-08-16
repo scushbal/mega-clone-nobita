@@ -28,7 +28,7 @@ class DbManger:
             self.conn.commit()
             self.disconnect()
             AUTHORIZED_CHATS.add(chat_id)
-            return 'Authorized successfully'
+            return 'অনুমতি দিলাম।😎'
 
     def db_unauth(self,chat_id: int):
         self.connect()
@@ -40,7 +40,7 @@ class DbManger:
             self.conn.commit()
             self.disconnect()
             AUTHORIZED_CHATS.remove(chat_id)
-            return 'Unauthorized successfully'
+            return 'Unauthorized successfully 😐'
 
     def db_addsudo(self,chat_id: int):
         self.connect()
