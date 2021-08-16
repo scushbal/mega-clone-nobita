@@ -76,7 +76,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 - Clone this repo:
 ```
 git clone https://github.com/nobita-o/Nobita-Mirror-Bot/
-cd mirrorbot
+cd Mirror-Bot
 ```
 
 - Install requirements
