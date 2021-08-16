@@ -4,7 +4,7 @@ from functools import wraps
 from pyrogram.types import Message
 from bot import HEROKU_API_KEY, HEROKU_APP_NAME
 
-# Implement by https://github.com/jusidama18
+# Implement by https://github.com/Nobita-o
 # Setting Message
 
 def get_text(message: Message) -> [None, str]:
@@ -21,7 +21,7 @@ def get_text(message: Message) -> [None, str]:
         return None
 
 # Preparing For Setting Config
-# Implement by https://github.com/jusidama18 and Based on this https://github.com/DevsExpo/FridayUserbot/blob/master/plugins/heroku_helpers.py
+# Implement by https://github.com/Nobita-o
 
 heroku_client = None
 if HEROKU_API_KEY:
@@ -46,7 +46,7 @@ def check_heroku(func):
     return heroku_cli
 
 # Preparing For Update Bot
-# Implement by https://github.com/jusidama18 and Based on this https://github.com/DevsExpo/FridayUserbot/blob/master/plugins/updater.py
+# Implement by https://github.com/Nobita-o
 
 def fetch_heroku_git_url(api_key, app_name):
     if not api_key:
