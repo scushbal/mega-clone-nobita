@@ -1,5 +1,4 @@
-# Implement By - @anasty17 (https://github.com/breakdowns/slam-tg-mirror-bot/pull/111)
-# (c) https://github.com/breakdowns/slam-tg-mirror-bot
+# (c) https://github.com/Nobita-o/Nobita-Mirror-Bot
 # All rights reserved
 
 from telegram.ext import CommandHandler
