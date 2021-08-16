@@ -1,4 +1,4 @@
-[![Nobita](https://telegra.ph/file/446a798a9ac1b8c9db91d.png)](https://youtu.be/Pk_TthHfLeE)
+[![Nobita](https://telegra.ph/file/446a798a9ac1b8c9db91d.png)](https://t.me/nobita_o)
 
 # Nobita Mirror Bot
 ![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
@@ -217,6 +217,8 @@ sudo docker run mirrorbot
 - Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL** (**NOTE**: If you didn't upload **token.pickle** uploading will not work). How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-tg-mirror-bot#getting-google-oauth-api-credential-file)
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
+
+[![Nobita(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNJJqvrexKAT--YjpNoHQq2qYybgarD_U3A&usqp=CAU)]
 
 # Heroku Deploy is temporarily closed. Contact the developer if you want to deploy.
 
