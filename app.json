@@ -1,15 +1,15 @@
 {
-    "name": "slam-tg-mirror-bot",
+    "name": "Nobita-Mirror-Bot",
     "description": "A Telegram bot for all your mirror needs",
-    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "logo": "https://telegra.ph/file/446a798a9ac1b8c9db91d.png",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/breakdowns/slam-tg-mirror-bot",
-    "website": "https://github.com/breakdowns/slam-tg-mirror-bot",
-    "success_url": "https://t.me/SlamMirrorSupport",
+    "repository": "https://github.com/nobita-o/Nobita-Mirror-Bot",
+    "website": "https://github.com/nobita-o/Nobita-Mirror-Bot",
+    "success_url": "https://t.me/nobita_o",
     "stack": "container",
     "env": {
       "ENV": {
@@ -79,12 +79,12 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/breakdowns/slam-tg-mirror-bot.",
-        "value": "https://github.com/breakdowns/slam-tg-mirror-bot",
+        "description": "Link for Bot Upstream Repo, Don't change it, Fill https://github.com/nobita-o/Nobita-Mirror-Bot.",
+        "value": "https://github.com/nobita-o/Nobita-Mirror-Bot",
         "required": true
       },
       "UPSTREAM_BRANCH": {
-        "description": "Branch name for Bot Upstream Repo, fill master.",
+        "description": "Branch name for Bot Upstream Repo, Don't Touch it, fill master.",
         "value": "master",
         "required": true
       },
