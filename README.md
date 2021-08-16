@@ -304,7 +304,7 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 [Telegram](https://t.me/nobita_o)
 
 # Join Our Group 
-[Telegram Group](httos://t.me/gdrive_mirrors)
+[Telegram Group](https://t.me/gdrive_mirrors)
 
 # Credits
 
