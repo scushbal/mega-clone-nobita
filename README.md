@@ -310,4 +310,4 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 
 All Credits Goes to:
 
-[Nobita](https://t.me/nobita_o)
+[🅽Ⓞ🅱🅸🆃🅰](https://t.me/nobita_o)
