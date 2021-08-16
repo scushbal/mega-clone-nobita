@@ -1,4 +1,4 @@
-[![Nobita](https://telegra.ph/file/21c9bb926972fdb653525.jpg)](https://youtu.be/Pk_TthHfLeE)
+[![Nobita](https://telegra.ph/file/792366c19add77f9181eb.png)](https://youtu.be/Pk_TthHfLeE)
 
 # Nobita Mirror Bot
 ![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-tg-mirror-bot?color=blue&style=flat)
