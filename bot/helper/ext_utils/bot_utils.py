@@ -21,8 +21,8 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading...📤"
-    STATUS_DOWNLOADING = "Downloading...📥"
+    STATUS_UPLOADING = "Uploading...🚀"
+    STATUS_DOWNLOADING = "Downloading...💻"
     STATUS_CLONING = "Cloning...♻️"
     STATUS_WAITING = "Queued...📝"
     STATUS_FAILED = "Failed 🚫. Cleaning Download..."
@@ -134,7 +134,7 @@ def get_readable_message():
                     # if hasattr(download, 'is_torrent'):
                     try:
                         msg += f"\n<b>🌱 Seeders:</b> <code>{download.aria_download().num_seeders}</code>" \
-                            f" | <b>❄️ Peers:</b> <code>{download.aria_download().connections}</code>"
+                            f" | <b>🧲 Peers:</b> <code>{download.aria_download().connections}</code>"
                     except:
                         pass
                     try:
