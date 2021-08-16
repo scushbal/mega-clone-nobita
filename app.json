@@ -7,8 +7,8 @@
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/nobita-o/Nobita-Mirror-Bot",
-    "website": "https://github.com/nobita-o/Nobita-Mirror-Bot",
+    "repository": "https://github.com/Nobita-o/Nobita-Mirror-Bot",
+    "website": "https://github.com/Nobita-o/Nobita-Mirror-Bot",
     "success_url": "https://t.me/nobita_o",
     "stack": "container",
     "env": {
