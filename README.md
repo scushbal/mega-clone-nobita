@@ -299,6 +299,11 @@ machine example.workers.dev password index_password
 ```
 Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of different hosts can be added each separated by a new line.
 
+# Contact Me
+
+[Facebook](www.facebook.com/naimxw)
+[Telegram](t.me/nobita_o)
+
 # Credits
 
 All Credits Goes to:
