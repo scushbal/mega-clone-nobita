@@ -218,7 +218,7 @@ sudo docker run mirrorbot
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
-[![Warn](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzSbrGKcCZFnW_61kge7edRxbShUYTNSk3vQ&usqp=CAU)](https://t.me/nobita_o)
+[![Warn](https://telegra.ph/file/f9ab4844ed4e37cdb1584.png)](https://t.me/nobita_o)
 
 # Heroku Deploy is temporarily closed. Contact the developer if you want to deploy.
 
