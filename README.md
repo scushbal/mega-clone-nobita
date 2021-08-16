@@ -301,5 +301,5 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 
 # Credits
 
-Credits Goes to:
--t.me/Nobita_o
+All Credits Goes to:
+-[Nobita](https://t.me/nobita_o)
