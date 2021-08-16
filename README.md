@@ -6,7 +6,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/breakdowns/slam-tg-mirror-bot?style=flat)
 ![GitHub watchers](https://img.shields.io/github/watchers/breakdowns/slam-tg-mirror-bot)
 ![Docker Pulls](https://img.shields.io/docker/pulls/breakdowns/mega-sdk-python?label=Docker%20Pull)
-[![Contact Mel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/nobita_o)
+[![Contactl](https://img.shields.io/badge/Contact%20Mel-!-red)](https://t.me/nobita_o)
 
 **Nobita Mirror Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
