@@ -341,7 +341,7 @@ def _mirror(bot, update, isTar=False, extract=False):
     elif bot_utils.is_mega_link(link):
         link_type = get_mega_link_type(link)
         if link_type == "folder" and BLOCK_MEGA_FOLDER:
-            sendMessage("ega links are blocked! Use / mirror2 command \nand Remember, this is a mega free account. Cannot download above 5 GB at a time 😐. \nif you have a premium account the ping me.", bot, update)
+            sendMessage("Mga links are blocked! Use / mirror2 command \nand Remember, this is a mega free account. Cannot download above 5 GB at a time 😐. \nif you have a premium account the ping me.", bot, update)
         elif BLOCK_MEGA_LINKS:
             sendMessage("Mega links are blocked! Use / mirror2 command \nand Remember, this is a mega free account. Cannot download above 5 GB at a time 😐. \nif you have a premium account the ping me.", bot, update)
         else:
