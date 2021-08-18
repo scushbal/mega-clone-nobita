@@ -134,7 +134,7 @@ def get_readable_message():
                     # if hasattr(download, 'is_torrent'):
                     try:
                         msg += f"\n<b>🌱 Seeders:</b> <code>{download.aria_download().num_seeders}</code>" \
-                            f" | <b>🧲 Peers:</b> <code>{download.aria_download().connections}</code>"
+                            f" | <b>💠 Peers:</b> <code>{download.aria_download().connections}</code>"
                     except:
                         pass
                     try:
@@ -143,6 +143,7 @@ def get_readable_message():
                     except:
                         pass
                     msg += f'\n<b>🙎 User:</b> <a href="tg://user?id={download.message.from_user.id}">{download.message.from_user.first_name}</a>'
+                    msg += f' (<a href="tg://user?id={download.message.from_user.id}">{download.message.from_user.id}</a>)'
                     msg += f"\n<b>To ❌ Stop:</b> <code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                 msg += "\n\n"
                 if STATUS_LIMIT is not None:
