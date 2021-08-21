@@ -31,9 +31,9 @@ class AriaDownloadHelper(DownloadHelper):
                     gdrive = GoogleDriveHelper(None)
                     smsg, button = gdrive.drive_list(sname)
                 if smsg:
-                    dl.getListener().onDownloadError(f'File/Folder already available in Drive.\n\n')
+                    dl.getListener().onDownloadError(f'❌ Duplicate Mirror detected!! ❌ \n\nওয়েইট ✋ মিরর করার পূর্বে আপনার সার্চ করা উচিত ছিল 😐 আপনি যে ফাইল টি মিরর করতে চাচ্ছেন সেইটা ড্রাইভে অলরেডি আছেই 🙂\n\n')
                     aria2.remove([download], force=True)
-                    sendMarkup("Here are the search results:", dl.getListener().bot, dl.getListener().update, button)
+                    sendMarkup("🔍 এইযে দেখুন সার্চ রেজাল্ট 👇👇", dl.getListener().bot, dl.getListener().update, button)
                     return
             if (TORRENT_DIRECT_LIMIT is not None or TAR_UNZIP_LIMIT is not None) and dl is not None:
                 limit = None
